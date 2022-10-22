@@ -10,6 +10,7 @@
     --main-bg: hsl(217, 54%, 11%);
     --card-bg: hsl(215, 32%, 27%);
     --white-color: hsl(0, 0%, 100%);
+    --transition: all 0.5s linear;
 }
 body{
     font-family: 'Outfit', sans-serif;
@@ -30,6 +31,7 @@ body{
     border-radius: 16px;
     padding: 24px;
     overflow: hidden;
+    transition: var(--transition);
 }
 .card img{
     width: 100%;
